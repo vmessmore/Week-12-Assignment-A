@@ -1,3 +1,8 @@
+#https://github.com/vmessmore/Week-12-Assignment-A
+#Tori Messmore
+#CSCI-Section C
+#Week 12-Part B
+
 def PrintOutput(the_string):
     print('OUTPUT', the_string)
 
