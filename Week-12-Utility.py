@@ -19,3 +19,15 @@ def UpdateString(original, edit, number):
 def FindWordCount(input_list, input_string):
     num_times = input_list.count(input_string)
     return num_times
+
+def ScoreFinder(name_list, score_list, person):
+    boo=False
+    for i in range(len(name_list)):
+        this_name = name_list[i]
+        if this_name.lower() == person.lower():
+            boo=True
+            output = str(name_list[i]) + ' got a score of ' + str(score_list[i])
+            PrintOutput(output)
+    if boo==False:
+        PrintOutput('player not found')
+        
