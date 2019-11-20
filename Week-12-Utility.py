@@ -30,4 +30,18 @@ def ScoreFinder(name_list, score_list, person):
             PrintOutput(output)
     if boo==False:
         PrintOutput('player not found')
+
+def Union(list_1, list_2):
+    new_list=[]
+    for i in range(len(list_1)):
+        if list_1[i] in new_list:
+            pass
+        else:
+            new_list.append(list_1[i])
+    for i in range(len(list_2)):
+        if list_2[i] in new_list:
+            pass
+        else:
+            new_list.append(list_2[i])
+    return new_list
         
