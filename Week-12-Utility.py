@@ -15,3 +15,7 @@ def UpdateString(original, edit, number):
         else:
             new_string += original[i]
     PrintOutput(new_string)
+
+def FindWordCount(input_list, input_string):
+    num_times = input_list.count(input_string)
+    return num_times
